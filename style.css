@@ -101,22 +101,86 @@ p {
 
 .story{
   background-color: #FFACAC;
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 100px;
+  margin-right: 80px;
+  position: relative;
 }
 h3{
   width: 220px;
-  margin-left: 60px;
-  background-color: #FDEAE7;
+  background-color: #FDEAE7; 
 }
 .foto{
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   position:absolute;
-  
+  left: -90px;
+  bottom: 20px;
 }
-
+.foto1{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position:absolute;
+  right: -90px;
+  bottom: 20px;
+}
+.story1{
+  background-color: #FF8484;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 80px;
+  margin-right: 100px;
+  position: relative;
+}
+.imko1{
+  position: relative;
+  left: 953px;
+  width: 187px;
+  background-color: #FDEAE7; 
+}
+.imko2{
+  width: 245px;
+  background-color: #FDEAE7; 
+}
+.story2{
+  background-color: #FF809B;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 100px;
+  margin-right: 80px;
+  position: relative;
+}
+.story3{
+  background-color: #ED5498;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 80px;
+  margin-right: 100px;
+  position: relative;
+}
+.imko3{
+  position: relative;
+  left: 950px;
+  width: 190px;
+  background-color: #FDEAE7; 
+}
+.purpaw{
+  width: 50px;
+  height: 50px;
+  rotate: -45deg;
+}
+.purpaw1{
+  width: 50px;
+  height: 50px;
+  rotate: 45deg;
+}
+h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
 .koto-story {
   text-align: center;
 }
@@ -130,4 +194,57 @@ h3{
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
+}
+
+.triangle{
+  width: 0;
+  height: 0;
+  margin: 40px;
+  border-top: 0 solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #FFACAC;
+  border-left: 40px solid transparent;
+  position: absolute;
+  left: -78px;
+  top: 62px;
+}
+.triangle1{
+  width: 0;
+  height: 0;
+  margin: 40px;
+  border-top: 0 solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #FF8484;
+  border-left: 40px solid transparent;
+  position: absolute;
+  right: -80px;
+  top: 42px;
+}
+.triangle2{
+  width: 0;
+  height: 0;
+  margin: 40px;
+  border-top: 0 solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #FF809B;
+  border-left: 40px solid transparent;
+  position: absolute;
+  left: -78px;
+  top: 62px;
+}
+.triangle3{
+  width: 0;
+  height: 0;
+  margin: 40px;
+  border-top: 0 solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #ED5498;
+  border-left: 40px solid transparent;
+  position: absolute;
+  right: -80px;
+  top: 42px;
+}
+.mur{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
