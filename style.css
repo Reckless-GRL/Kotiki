@@ -1,123 +1,100 @@
 body {
-    background-color: rgba(253, 234, 231, 1);
-    margin: 0;
+  background-color: rgba(253, 234, 231, 1);
+  margin: 0;
 }
-
-h1 {
-    text-align: center;
-    background-color: rgba(246, 144, 79, 1);
-    color: rgba(237, 84, 152, 1);
-    font-family: "Copse", serif;
-    padding: 10px;
+main {
+  padding: 10px;
+}
+.name {
+  text-align: center;
+  background-color: rgba(246, 144, 79, 1);
+  color: rgba(237, 84, 152, 1);
+  font-family: "Copse", serif;
+  padding: 10px;
 }
 
 img {
-    width: 150px;
+  width: 150px;
 }
 
- h2 {
-    font-size: 18px;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
- }
- p { 
-    font-size: 15px;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    margin-left: 50px;
-    margin-right: 50px;
- }
- .header_nav {
-display: flex;
-justify-content: right;
- }
- .quiz {
-    background-color: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(255, 255, 255, 1);
-    border-radius: 13px;
-    padding: 4px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 15px;
-    font-family: "Montserrat", sans-serif;
-    margin: 7px;
- }
- .galery {
-    background-color: rgba(255, 225, 143, 1);
-    border: 1px solid rgba(255, 225, 143, 1);
-    border-radius: 13px;
-    padding: 4px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 15px;
-    font-family: "Montserrat", sans-serif;
-    margin: 7px;
- }
- .store {
-    background-color: rgba(255, 166, 0, 1);
-    border: 1px solid rgba(255, 166, 0, 1);
-    border-radius: 13px;
-    padding: 4px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 15px;
-    font-family: "Montserrat", sans-serif;
-    margin: 7px;
- }
- .goroskop {
-   background-color: white;
- }
- .kotiki {
-   background-color: rgba(255, 225, 143, 1);
- }
- .kotiki1 {
-   width: 300px;
-   height: 185px;
- }
- .kotiki2 {
-   width: 300px;
-   height: 185px;
- }
- .kotiki3 {
-   width: 300px;
-   height: 185px;
- }
- .kotiki4 {
-   width: 300px;
-   height: 185px;
- }
- .kotiki5 {
-   width: 300px;
-   height: 185px;
- }
- .kotiki6 {
-   width: 300px;
-   height: 185px;
- }
- .kotiki7 {
-   width: 300px;
-   height: 185px;
- }
- .kotiki8 {
-   width: 300px;
-   height: 185px;
- }
- .kotiki9 {
-   width: 300px;
-   height: 185px;
- }
- .kotiki10 {
-   width: 300px;
-   height: 185px;
- }
- .kotiki11 {
-   width: 300px;
-   height: 185px;
- }
- .kotiki12 {
-   width: 300px;
-   height: 185px;
- }
+h2 {
+  font-size: 18px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  font-size: 15px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.header_nav {
+  display: flex;
+  justify-content: right;
+}
+.quiz {
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 13px;
+  padding: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  margin: 7px;
+}
+.galery {
+  background-color: rgba(255, 225, 143, 1);
+  border: 1px solid rgba(255, 225, 143, 1);
+  border-radius: 13px;
+  padding: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  margin: 7px;
+}
+.store {
+  background-color: rgba(255, 166, 0, 1);
+  border: 1px solid rgba(255, 166, 0, 1);
+  border-radius: 13px;
+  padding: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  margin: 7px;
+}
+.goroskop,
+.goroskop-two-cards {
+  background-color: white;
+  border-radius: 10px;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.goroskop-two-cards {
+  justify-content: center;
+}
+
+.two-cards {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.kotiki-card {
+  width: 280px;
+  height: 220px;
+  background-color: rgba(255, 225, 143, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .goroskop_name {
    text-align: left;
 }
@@ -138,4 +115,19 @@ h3{
   border-radius: 50%;
   position:absolute;
   
+}
+
+.koto-story {
+  text-align: center;
+}
+.messages {
+  width: 200px;
+  height: 100px;
+  background-color: rgba(255, 172, 172, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
 }
