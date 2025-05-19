@@ -29,6 +29,12 @@ p {
   margin-left: 50px;
   margin-right: 50px;
 }
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: gray
+}
 .header_nav {
   display: flex;
   justify-content: right;
@@ -206,7 +212,7 @@ h2 {
   border-left: 40px solid transparent;
   position: absolute;
   left: -78px;
-  top: 62px;
+  top: 42px;
 }
 .triangle1 {
   width: 0;
@@ -230,7 +236,7 @@ h2 {
   border-left: 40px solid transparent;
   position: absolute;
   left: -78px;
-  top: 62px;
+  top: 42px;
 }
 .triangle3 {
   width: 0;
