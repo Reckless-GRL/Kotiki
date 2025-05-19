@@ -33,7 +33,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: gray
+  color: gray;
 }
 .header_nav {
   display: flex;
@@ -97,10 +97,17 @@ a:hover {
 .kotiki-card {
   width: 280px;
   height: 220px;
+
   background-color: rgba(255, 225, 143, 1);
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+}
+.kotiki-card p {
+  margin: 0;
+  width: 200px;
+  line-height: 1.4;
 }
 .goroskop_name {
   text-align: left;

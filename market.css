@@ -1,3 +1,8 @@
 body{
-    background-: ;
+    background-image:linear-gradient(rgba(253, 234, 231, 1), rgb(255, 173, 173)) ;
+    text-align: center;
+}
+.kart{
+    width: 30px;
+    height: 30px;
 }
