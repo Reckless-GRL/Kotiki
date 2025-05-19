@@ -112,11 +112,13 @@ a:hover {
   margin-left: 100px;
   margin-right: 80px;
   position: relative;
-  height: 110px;
+  height: 130px;
 }
 h3 {
   width: 220px;
   background-color: #fdeae7;
+  margin: 0px;
+  top: 5px;
 }
 .foto {
   width: 70px;
@@ -160,7 +162,7 @@ h3 {
   margin-left: 100px;
   margin-right: 80px;
   position: relative;
-  height: 110px;
+  height: 130px;
 }
 .story3 {
   background-color: #ed5498;
@@ -216,7 +218,7 @@ h2 {
   border-left: 40px solid transparent;
   position: absolute;
   left: -78px;
-  top: 40px;
+  top: 60px;
 }
 .triangle1 {
   width: 0;
@@ -240,7 +242,7 @@ h2 {
   border-left: 40px solid transparent;
   position: absolute;
   left: -78px;
-  top: 40px;
+  top: 60px;
 }
 .triangle3 {
   width: 0;
