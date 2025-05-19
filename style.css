@@ -102,7 +102,9 @@ p {
 .story{
   background-color: #FFACAC;
   padding: 10px;
-  margin: 10px;
+  margin: 10px 65px;
+  position: relative;
+  
 }
 h3{
   width: 220px;
@@ -130,4 +132,17 @@ h3{
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
+}
+
+.triange{
+  width: 0;
+  height: 0;
+  margin: 40px;
+  border-top: 0 solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #FFACAC;
+  border-left: 40px solid transparent;
+  position: absolute;
+  left: -78px;
+  top: 50px;
 }
