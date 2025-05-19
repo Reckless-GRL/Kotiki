@@ -96,29 +96,91 @@ p {
   align-items: center;
 }
 .goroskop_name {
-   text-align: left;
+  text-align: left;
 }
 
-.story{
-  background-color: #FFACAC;
-  padding: 10px;
-  margin: 10px 65px;
+.story {
+  background-color: #ffacac;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 100px;
+  margin-right: 80px;
   position: relative;
-  
 }
-h3{
+h3 {
   width: 220px;
-  margin-left: 60px;
-  background-color: #FDEAE7;
+  background-color: #fdeae7;
 }
-.foto{
+.foto {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  left: -90px;
+  bottom: 20px;
+}
+.foto1 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  right: -90px;
+  bottom: 20px;
+}
+.story1 {
+  background-color: #ff8484;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 80px;
+  margin-right: 100px;
+  position: relative;
+}
+.imko1 {
+  position: relative;
+  left: 953px;
+  width: 187px;
+  background-color: #fdeae7;
+}
+.imko2 {
+  width: 245px;
+  background-color: #fdeae7;
+}
+.story2 {
+  background-color: #ff809b;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 100px;
+  margin-right: 80px;
+  position: relative;
+}
+.story3 {
+  background-color: #ed5498;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 80px;
+  margin-right: 100px;
+  position: relative;
+}
+.imko3 {
+  position: relative;
+  left: 950px;
+  width: 190px;
+  background-color: #fdeae7;
+}
+.purpaw {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
-  position:absolute;
-  
+  rotate: -45deg;
 }
-
+.purpaw1 {
+  width: 50px;
+  height: 50px;
+  rotate: 45deg;
+}
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+}
 .koto-story {
   text-align: center;
 }
@@ -134,15 +196,55 @@ h3{
   transition: transform 0.3s;
 }
 
-.triange{
+.triangle {
   width: 0;
   height: 0;
   margin: 40px;
   border-top: 0 solid transparent;
   border-right: 40px solid transparent;
-  border-bottom: 40px solid #FFACAC;
+  border-bottom: 40px solid #ffacac;
   border-left: 40px solid transparent;
   position: absolute;
   left: -78px;
-  top: 50px;
+  top: 62px;
+}
+.triangle1 {
+  width: 0;
+  height: 0;
+  margin: 40px;
+  border-top: 0 solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #ff8484;
+  border-left: 40px solid transparent;
+  position: absolute;
+  right: -80px;
+  top: 42px;
+}
+.triangle2 {
+  width: 0;
+  height: 0;
+  margin: 40px;
+  border-top: 0 solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #ff809b;
+  border-left: 40px solid transparent;
+  position: absolute;
+  left: -78px;
+  top: 62px;
+}
+.triangle3 {
+  width: 0;
+  height: 0;
+  margin: 40px;
+  border-top: 0 solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #ed5498;
+  border-left: 40px solid transparent;
+  position: absolute;
+  right: -80px;
+  top: 42px;
+}
+.mur {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
