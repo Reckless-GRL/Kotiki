@@ -24,16 +24,16 @@ h2 {
 }
 p {
   font-size: 15px;
-  text-align: center;
   font-family: "Montserrat", sans-serif;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 a {
   text-decoration: none;
 }
 a:hover {
   color: gray
+}
+.for-us {
+  text-align: center;
 }
 .header_nav {
   display: flex;
@@ -100,6 +100,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .goroskop_name {
    text-align: left;
@@ -250,7 +251,49 @@ h2{
   right: -80px;
   top: 42px;
 }
-.mur{
+.mur {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.help {
+  background-color: white;
+  height: 1000px;
+  width: 90%;
+  margin: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 10px;
+  transform: translateY(-50px);
+}
+.help0 {
+  display: flex;
+  text-align: center;
+  justify-content: normal;
+  align-items: normal;
+}
+.help1 {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 500px;
+  text-align: left;
+  transform: translateX(300px);
+}
+.help2 {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 500px;
+  text-align: left;
+  transform: translateX(-300px);
+}
+.help3 {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  width: 700px;
+  text-align: left;
+  transform: translateX(-300px);
 }
