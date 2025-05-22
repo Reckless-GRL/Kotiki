@@ -105,9 +105,8 @@ a:hover {
   text-align: center;
   padding: 10px;
 }
-.kotiki-card {
+.kotiki-card p {
   margin: 0;
-  width: 200px;
   line-height: 1.4;
 }
 .goroskop_name {
@@ -309,5 +308,11 @@ h2 {
   flex-direction: column;
   width: 700px;
   text-align: left;
-  transform: translateX(-300px);
+  transform: translateX(25px);
+}
+.images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
 }
