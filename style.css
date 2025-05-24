@@ -270,49 +270,94 @@ h2 {
 }
 .help {
   background-color: white;
-  height: 1000px;
+  height: 1100px;
   width: 90%;
   margin: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-direction: column;
+  /*flex-direction: column;*/
+  flex-wrap: wrap;
   border-radius: 10px;
   transform: translateY(-50px);
 }
 .help0 {
   display: flex;
   text-align: center;
-  justify-content: normal;
+  justify-content: center;
   align-items: normal;
 }
 .help1 {
   display: flex;
   align-items: start;
   flex-direction: column;
-  width: 500px;
+  width: 600px;
   text-align: left;
-  transform: translateX(300px);
+  transform: translateX(-200px);
 }
 .help2 {
   display: flex;
-  align-items: start;
+  align-items: left;
+  justify-content: center;
   flex-direction: column;
-  width: 500px;
   text-align: left;
-  transform: translateX(-300px);
+  transform: translateX(100px);
 }
 .help3 {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   flex-direction: column;
-  width: 700px;
   text-align: left;
-  transform: translateX(25px);
+  transform: translateX(100px);
+}
+.help3 p {
+  font-size: 17px;
+  width: 900px;
 }
 .images {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  transform: translateX(100px);
+}
+.images img {
+    width: 200px;
+    height: auto;;
+  }
+/*.helping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}*/
+.images1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-100px);
+}
+.images1 img {
+    width: 200px;
+    height: auto;
+  }
+.images2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(150px);
+}
+.images2 img {
+    width: 250px;
+    height: auto;
+    align-self: center;
+    max-width: 100%;
+}
+.pritulok {
+  background-color: rgba(217, 217, 217, 0.63);
+}
+.go-over {
+  background-color: rgba(255, 166, 0, 1);
 }
