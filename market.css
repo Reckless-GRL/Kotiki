@@ -6,3 +6,53 @@ body{
     width: 30px;
     height: 30px;
 }
+
+.ikon{
+    transition: 1s;
+    border-radius: 10px;
+    border: 5px ridge #f1d0e0;
+    width: 200px;
+    height: 200px;
+}
+.ikontarakan{
+    transition: 1s;
+    border-radius: 10px;
+    border: 5px ridge #f1d0e0;
+    width: 350px;
+    height: 200px;
+}
+
+.tovar{
+    text-align: center;
+    font-size: larger;
+    margin: 30px;
+    transition: 1s;
+}
+.onepart{
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    font-size: 18px;
+    font-family: "Great Vibes", cursive;
+    line-height: 0px;
+}
+
+.together:hover{
+    color: palevioletred;
+}
+
+.tovar:hover{
+    .ikon{
+        width: 300px;
+        height: 300px;
+    }
+    .ikontarakan{
+        width: 450px;
+        height: 250px;
+    }
+    width: 500px;
+    height: 400px;
+    background-color: rgb(226, 179, 179);
+    border-radius: 20px;
+}
