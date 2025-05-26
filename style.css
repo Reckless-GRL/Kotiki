@@ -153,12 +153,21 @@ h3 {
   position: relative;
   height: 110px;
 }
+
+
 .imko1 {
-  position: relative;
-  left: 953px;
+  text-align: right;
   width: 187px;
   background-color: #fdeae7;
 }
+
+.imko_div{
+  display: flex;
+  justify-content: right;
+}
+
+
+
 .imko2 {
   width: 245px;
   background-color: #fdeae7;
@@ -181,12 +190,12 @@ h3 {
   position: relative;
   height: 110px;
 }
+
 .imko3 {
-  position: relative;
-  left: 950px;
   width: 190px;
   background-color: #fdeae7;
 }
+
 .purpaw {
   width: 50px;
   height: 50px;
