@@ -153,12 +153,21 @@ h3 {
   position: relative;
   height: 110px;
 }
+
+
 .imko1 {
-  position: relative;
-  left: 953px;
+  text-align: right;
   width: 187px;
   background-color: #fdeae7;
 }
+
+.imko_div{
+  display: flex;
+  justify-content: right;
+}
+
+
+
 .imko2 {
   width: 245px;
   background-color: #fdeae7;
@@ -181,12 +190,12 @@ h3 {
   position: relative;
   height: 110px;
 }
+
 .imko3 {
-  position: relative;
-  left: 950px;
   width: 190px;
   background-color: #fdeae7;
 }
+
 .purpaw {
   width: 50px;
   height: 50px;
@@ -273,53 +282,53 @@ h2 {
   height: 1100px;
   width: 90%;
   margin: 80px;
+  margin-top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   /*flex-direction: column;*/
   flex-wrap: wrap;
   border-radius: 10px;
-  transform: translateY(-50px);
 }
-.help0 {
-  display: flex;
+.help_text {
   text-align: center;
-  justify-content: center;
-  align-items: normal;
+  padding:  10px 20px;
 }
-.help1 {
+
+.help_section, .help_section_2, .help_section_3{
   display: flex;
-  align-items: start;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.help1 {
+  max-width: 700px;
+  display: flex;
   flex-direction: column;
-  width: 600px;
   text-align: left;
-  transform: translateX(-200px);
 }
 .help2 {
   display: flex;
-  align-items: left;
-  justify-content: center;
   flex-direction: column;
   text-align: left;
-  transform: translateX(100px);
 }
 .help3 {
   display: flex;
-  align-items: center;
+  align-items: left;
+  justify-content: left;
   flex-direction: column;
   text-align: left;
-  transform: translateX(100px);
 }
 .help3 p {
   font-size: 17px;
-  width: 900px;
+  max-width: 900px;
 }
 .images {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
-  transform: translateX(100px);
+
 }
 .images img {
     width: 200px;
@@ -336,7 +345,6 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  transform: translateX(-100px);
 }
 .images1 img {
     width: 200px;
@@ -347,7 +355,6 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  transform: translateX(150px);
 }
 .images2 img {
     width: 250px;
