@@ -26,7 +26,14 @@ body{
     text-align: center;
     font-size: larger;
     margin: 30px;
+    padding: 15px;
     transition: 1s;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .onepart{
     display: flex;
@@ -42,17 +49,12 @@ p{
     color: palevioletred;
 }
 
-.tovar:hover{
-    .ikon{
-        width: 300px;
-        height: 300px;
-    }
-    .ikontarakan{
-        width: 450px;
-        height: 250px;
-    }
-    width: 500px;
-    height: 400px;
+.tovar:hover img{
+    transform: scale(1.1);
+ }
+
+ .tovar:hover{
     background-color: rgb(226, 179, 179);
     border-radius: 20px;
-}
+    cursor: pointer;
+ }
