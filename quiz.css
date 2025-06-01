@@ -77,3 +77,15 @@ body {
     width: 100%; /* Або зазначте бажану ширину */
 
 }
+
+.last_question{
+    display: flex;
+    align-items: end;
+}
+
+.last_question button{
+    position: relative;
+    top: -18px;
+    height: 35px;
+    width: 100px;
+}
