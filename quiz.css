@@ -3,6 +3,49 @@ body {
     font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
     height: 110%;
 }
+.base {
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 13px;
+  padding: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  margin: 7px;
+}
+.galery {
+  background-color: rgba(255, 225, 143, 1);
+  border: 1px solid rgba(255, 225, 143, 1);
+  border-radius: 13px;
+  padding: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  margin: 7px;
+}
+.store {
+  background-color: rgba(255, 166, 0, 1);
+  border: 1px solid rgba(255, 166, 0, 1);
+  border-radius: 13px;
+  padding: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  margin: 7px;
+}
+.header_nav {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: gray;
+}
 .quiz {
     display: flex; /* Використовуємо flexbox */
     align-items: center; /* Вирівнювання по верхньому краю */
