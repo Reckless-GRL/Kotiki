@@ -1,119 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Квіз</title>
-
-</head>
-<body>
+  </head>
+  <body>
     <link rel="stylesheet" href="quiz.css" />
     <header>
-        <div>
-        <img src="images/cats-image.png" alt="Cat Icon" class="cat-icon">
-        </div>
-        <div class="quiz-start">
+      <div>
+        <img
+          src="images/cats-image.png"
+          alt="Cat Icon"
+          class="cat-icon"
+        />
+      </div>
+      <div class="quiz-start">
         <div class="brown-line"></div>
         <h1>Який ти котик???</h1>
-        <p>Дізнайся, який тип кота відповідає твоєму  характеру</p>
-        </div>
+        <p>Дізнайся, який тип кота відповідає твоєму характеру</p>
+      </div>
     </header>
     <main>
-        <div class="quiz">
+      <div class="quiz">
         <div class="quiz-title">
-        <p>Що ти найбільше любиш їсти?</p>
-        <ul>
-            <li><input type="radio" name="food" value="fish"> Щось тепле й домашнє 🍲</li>
-            <li><input type="radio" name="food" value="meat"> Що завгодно, аби смачно 🍕</li>
-            <li><input type="radio" name="food" value="milk"> Щось елегантне — суші, авокадо тощо 🍣</li>
-            <li><input type="radio" name="food" value="treats"> Солодке! 🍰</li>
-        </ul>
+          <p>Що ти найбільше любиш їсти?</p>
+          <ul>
+            <li>
+              <input type="radio" name="food" value="fish" /> Щось
+              тепле й домашнє 🍲
+            </li>
+            <li>
+              <input type="radio" name="food" value="meat" /> Що
+              завгодно, аби смачно 🍕
+            </li>
+            <li>
+              <input type="radio" name="food" value="milk" /> Щось
+              елегантне — суші, авокадо тощо 🍣
+            </li>
+            <li>
+              <input type="radio" name="food" value="treats" />
+              Солодке! 🍰
+            </li>
+          </ul>
         </div>
         <div class="quiz-title">
-        <p>Як ти зазвичай проводиш вихідні?</p>
-        <ul>
-            <li><input type="radio" name="weekend" value="home"> Сплю майже весь день 😴</li>
-            <li><input type="radio" name="weekend" value="outdoors"> Зустрічаюся з друзями та тусуюсь 🕺</li>
-            <li><input type="radio" name="weekend" value="party"> Читаю, медитую або гуляю на природі 🍃 🎉</li>
-            <li><input type="radio" name="weekend" value="reading"> Роблю щось активне — спорт, подорожі 🚴</li>
-        </ul>
+          <p>Як ти зазвичай проводиш вихідні?</p>
+          <ul>
+            <li>
+              <input type="radio" name="weekend" value="home" /> Сплю
+              майже весь день 😴
+            </li>
+            <li>
+              <input type="radio" name="weekend" value="outdoors" />
+              Зустрічаюся з друзями та тусуюсь 🕺
+            </li>
+            <li>
+              <input type="radio" name="weekend" value="party" />
+              Читаю, медитую або гуляю на природі 🍃 🎉
+            </li>
+            <li>
+              <input type="radio" name="weekend" value="reading" />
+              Роблю щось активне — спорт, подорожі 🚴
+            </li>
+          </ul>
         </div>
         <div class="quiz-title">
-        <p>Як ти ставишся до змін?</p>
-        <ul>
-            <li><input type="radio" name="change" value="resistant"> Не люблю змін, виводять із зони комфорту 🏠</li>
-            <li><input type="radio" name="change" value="open"> Обожнюю — це нові можливості! 🔄</li>
-            <li><input type="radio" name="change" value="adaptable"> Залежить від ситуації 🤷‍♀️</li>
-            <li><input type="radio" name="change" value="excited"> А зміни взагалі помітив(-ла)? 😹</li>
-        </ul>
+          <p>Як ти ставишся до змін?</p>
+          <ul>
+            <li>
+              <input type="radio" name="change" value="resistant" />
+              Не люблю змін, виводять із зони комфорту 🏠
+            </li>
+            <li>
+              <input type="radio" name="change" value="open" />
+              Обожнюю — це нові можливості! 🔄
+            </li>
+            <li>
+              <input type="radio" name="change" value="adaptable" />
+              Залежить від ситуації 🤷‍♀️
+            </li>
+            <li>
+              <input type="radio" name="change" value="excited" /> А
+              зміни взагалі помітив(-ла)? 😹
+            </li>
+          </ul>
         </div>
         <div class="quiz-title">
-        <p>Що тебе найбільше надихає?</p>
-        <ul>
-            <li><input type="radio" name="inspiration" value="nature"> Мистецтво, музика, література 🎨</li>
-            <li><input type="radio" name="inspiration" value="people"> Подорожі та нові враження 🌍</li>
-            <li><input type="radio" name="inspiration" value="art"> Сім’я, друзі, теплі стосунки 🧡</li>
-            <li><input type="radio" name="inspiration" value="adventure"> Спокій, самотність і внутрішня гармонія 🧘‍♀️</li>
-        </ul>
+          <p>Що тебе найбільше надихає?</p>
+          <ul>
+            <li>
+              <input type="radio" name="inspiration" value="nature" />
+              Мистецтво, музика, література 🎨
+            </li>
+            <li>
+              <input type="radio" name="inspiration" value="people" />
+              Подорожі та нові враження 🌍
+            </li>
+            <li>
+              <input type="radio" name="inspiration" value="art" />
+              Сім’я, друзі, теплі стосунки 🧡
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="inspiration"
+                value="adventure"
+              />
+              Спокій, самотність і внутрішня гармонія 🧘‍♀️
+            </li>
+          </ul>
         </div>
         <div class="quiz-title">
-        <p>Як би ти описав(-ла) себе одним словом? </p>
-        <ul>
-            <li><input type="radio" name="self" value="lazy"> Затишний(-а)</li>
-            <li><input type="radio" name="self" value="active"> Активний(-а)</li>
-            <li><input type="radio" name="self" value="calm"> Турботливий(-а)</li>
-            <li><input type="radio" name="self" value="curious"> Цікавий(-а)</li>
-        </ul>
+          <p>Як би ти описав(-ла) себе одним словом?</p>
+          <ul>
+            <li>
+              <input type="radio" name="self" value="lazy" />
+              Затишний(-а)
+            </li>
+            <li>
+              <input type="radio" name="self" value="active" />
+              Активний(-а)
+            </li>
+            <li>
+              <input type="radio" name="self" value="calm" />
+              Турботливий(-а)
+            </li>
+            <li>
+              <input type="radio" name="self" value="curious" />
+              Цікавий(-а)
+            </li>
+          </ul>
         </div>
         <div class="quiz-title">
-        <p>Який твій стиль спілкування?</p>
-        <ul>
-            <li><input type="radio" name="communication" value="quiet"> Спокійний і врівноважений</li>
-            <li><input type="radio" name="communication" value="talkative"> Енергійний і веселий</li>
-            <li><input type="radio" name="communication" value="thoughtful"> Спостережливий, іноді мовчазний</li>
-            <li><input type="radio" name="communication" value="playful"> Залежить від настрою</li>
-        </ul>
+          <p>Який твій стиль спілкування?</p>
+          <ul>
+            <li>
+              <input
+                type="radio"
+                name="communication"
+                value="quiet"
+              />
+              Спокійний і врівноважений
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="communication"
+                value="talkative"
+              />
+              Енергійний і веселий
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="communication"
+                value="thoughtful"
+              />
+              Спостережливий, іноді мовчазний
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="communication"
+                value="playful"
+              />
+              Залежить від настрою
+            </li>
+          </ul>
         </div>
         <div class="quiz-title">
-        <p>Що ти робиш, коли хтось тебе дратує?</p>
-        <ul>
-            <li><input type="radio" name="annoyance" value="ignore"> Іду геть мовчки 😼</li>
-            <li><input type="radio" name="annoyance" value="confront"> Висловлюю все прямо 😾</li>
-            <li><input type="radio" name="annoyance" value="calm"> Стараюсь зрозуміти й не конфліктувати 🐱</li>
-            <li><input type="radio" name="annoyance" value="joke"> Просто ігнорую, мені байдуже 🐈‍⬛</li>
-        </ul>
+          <p>Що ти робиш, коли хтось тебе дратує?</p>
+          <ul>
+            <li>
+              <input type="radio" name="annoyance" value="ignore" />
+              Іду геть мовчки 😼
+            </li>
+            <li>
+              <input type="radio" name="annoyance" value="confront" />
+              Висловлюю все прямо 😾
+            </li>
+            <li>
+              <input type="radio" name="annoyance" value="calm" />
+              Стараюсь зрозуміти й не конфліктувати 🐱
+            </li>
+            <li>
+              <input type="radio" name="annoyance" value="joke" />
+              Просто ігнорую, мені байдуже 🐈‍⬛
+            </li>
+          </ul>
         </div>
         <div class="quiz-title">
-        <p>Який час доби тобі найбільше до душі? </p>
-        <ul>
-            <li><input type="radio" name="time" value="morning"> Ранок — люблю прокидатися рано 🌅</li>
-            <li><input type="radio" name="time" value="afternoon"> День — це час активності ☀️</li>
-            <li><input type="radio" name="time" value="evening"> Вечір — найкращий час для відпочинку 🌇</li>
-            <li><input type="radio" name="time" value="night"> Ніч — люблю тишу і спокій 🌙</li>
-        </ul>
+          <p>Який час доби тобі найбільше до душі?</p>
+          <ul>
+            <li>
+              <input type="radio" name="time" value="morning" /> Ранок
+              — люблю прокидатися рано 🌅
+            </li>
+            <li>
+              <input type="radio" name="time" value="afternoon" />
+              День — це час активності ☀️
+            </li>
+            <li>
+              <input type="radio" name="time" value="evening" /> Вечір
+              — найкращий час для відпочинку 🌇
+            </li>
+            <li>
+              <input type="radio" name="time" value="night" /> Ніч —
+              люблю тишу і спокій 🌙
+            </li>
+          </ul>
         </div>
         <div class="quiz-title">
-        <p>Як ти реагуєш на нових людей? </p>
-        <ul>
-            <li><input type="radio" name="new_people" value="shy"> Спершу обережно, але потім відкриваюсь 🐈</li>
-            <li><input type="radio" name="new_people" value="friendly"> Одразу йду на контакт, люблю знайомства 🐾</li>
-            <li><input type="radio" name="new_people" value="observant"> Тримаюсь осторонь, мені краще з перевіреними людьми 🛡️</li>
-            <li><input type="radio" name="new_people" value="indifferent"> Поводжусь по настрою, як котик — іноді мурчу, іноді шиплю 😼</li>
-        </ul>
+          <p>Як ти реагуєш на нових людей?</p>
+          <ul>
+            <li>
+              <input type="radio" name="new_people" value="shy" />
+              Спершу обережно, але потім відкриваюсь 🐈
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="new_people"
+                value="friendly"
+              />
+              Одразу йду на контакт, люблю знайомства 🐾
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="new_people"
+                value="observant"
+              />
+              Тримаюсь осторонь, мені краще з перевіреними людьми 🛡️
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="new_people"
+                value="indifferent"
+              />
+              Поводжусь по настрою, як котик — іноді мурчу, іноді
+              шиплю 😼
+            </li>
+          </ul>
         </div>
         <section class="quiz-title-container">
-        <div class="quiz-title">
-        <p>Де тобі найкомфортніше?</p>
-        <ul>
-            <li><input type="radio" name="comfort" value="home"> Вдома під ковдрою 🛋️</li>
-            <li><input type="radio" name="comfort" value="outdoors"> У компанії, де всі мене знають і люблять ❤️</li>
-            <li><input type="radio" name="comfort" value="social"> Десь серед природи 🌲</li>
-            <li><input type="radio" name="comfort" value="quiet"> Там, де я можу бути сам(-а) і вільний(-а) 🌌</li>
-        </ul>
-        </div>
-        <button class="send" onclick="calculateResult()">Відправити </button>
+          <div class="quiz-title">
+            <p>Де тобі найкомфортніше?</p>
+            <div class="last_question">
+              <ul>
+                <li>
+                  <input type="radio" name="comfort" value="home" />
+                  Вдома під ковдрою 🛋️
+                </li>
+                <li>
+                  <input
+                    type="radio"
+                    name="comfort"
+                    value="outdoors"
+                  />
+                  У компанії, де всі мене знають і люблять ❤️
+                </li>
+                <li>
+                  <input type="radio" name="comfort" value="social" />
+                  Десь серед природи 🌲
+                </li>
+                <li>
+                  <input type="radio" name="comfort" value="quiet" />
+                  Там, де я можу бути сам(-а) і вільний(-а) 🌌
+                </li>
+              </ul>
+              <button class="send" onclick="calculateResult()">
+                Відправити
+              </button>
+            </div>
+          </div>
         </section>
-    </div>
+      </div>
     </main>
-</body>
+  </body>
 </html>
