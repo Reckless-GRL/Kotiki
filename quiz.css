@@ -1,0 +1,79 @@
+body {
+    background-color: #fef9f0;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    height: 110%;
+}
+.quiz {
+    display: flex; /* Використовуємо flexbox */
+    align-items: center; /* Вирівнювання по верхньому краю */
+    justify-content: center; /* Відстань між елементами */
+    flex-direction: column; /* Вертикальне вирівнювання */
+    margin-bottom: 20px;
+}
+.brown-line {
+    background-color: #F5D689;
+    width: 630px;
+    /*margin: 0 auto;*/
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 17px;
+    margin-left: -29px;
+}
+.quiz-start {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 30px;
+    width: 580px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; /* горизонтальне центрування */
+    /*align-items: center;    /* вертикальне центрування */
+}
+.quiz-title {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 30px;
+    width: 640px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.quiz-title li {
+    padding: auto;
+    margin: 20px;
+}
+.cat-icon {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 640px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.send {
+    background-color: #af6f37;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    display: flex; /* Використовуємо flexbox */
+    align-items: flex-start; /* Вирівнювання по верхньому краю */
+}
+.quiz-title-container {
+    display: flex; /* Використовуємо flexbox */
+    align-items: center; /* Вирівнювання по верхньому краю */
+    justify-content: center; /* Відстань між елементами */
+    flex-direction: column; /* Вертикальне вирівнювання */
+    margin-bottom: 20px; /* Відступ знизу */
+    width: 100%; /* Або зазначте бажану ширину */
+
+}
