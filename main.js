@@ -4,3 +4,5 @@ let kotiki2 = document.querySelector('.kotiki2')
 /*window.onload = function() {
     kotiki2.style.transform = 'translateY(-70px)'
 }*/
+
+
