@@ -396,6 +396,8 @@ footer p {
 footer img {
   width: 50px;
   margin: 10px;
+  width: 100px;
+  height: 100px;
 }
 
 footer p {
